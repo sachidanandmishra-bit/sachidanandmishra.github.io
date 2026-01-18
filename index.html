@@ -21,7 +21,105 @@
         <h2>About Me</h2>
         <p>Write a short, punchy bio here about what problems you solve.</p>
     </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sachidanand Mishra | Biosciences Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root { --bio-teal: #008080; --science-blue: #004a7c; --dna-green: #2ecc71; }
+        body { font-family: 'Inter', sans-serif; background-color: #f4f7f6; color: #333; }
+        .hero { background: linear-gradient(135deg, var(--science-blue), var(--bio-teal)); color: white; padding: 100px 0 60px; text-align: center; }
+        .profile-img { width: 180px; height: 180px; border-radius: 50%; border: 5px solid white; object-fit: cover; margin-bottom: 20px; }
+        .section-header { border-bottom: 3px solid var(--bio-teal); display: inline-block; margin-bottom: 25px; padding-bottom: 5px; color: var(--science-blue); font-weight: bold; }
+        .skill-card { background: white; border-radius: 10px; padding: 20px; transition: 0.3s; height: 100%; border-top: 4px solid var(--bio-teal); box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        .project-highlight { background: #e0f2f1; border-left: 5px solid var(--dna-green); padding: 20px; border-radius: 5px; }
+        .badge-skill { background: var(--science-blue); color: white; margin: 3px; padding: 8px 12px; border-radius: 20px; font-size: 0.85rem; display: inline-block; }
+    </style>
+</head>
+<body>
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">SM | Researcher</a>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <img src="https://via.placeholder.com/180" alt="Sachidanand Mishra" class="profile-img">
+            <h1 class="display-4 fw-bold">SACHIDANAND MISHRA</h1>
+            <p class="lead">M.Sc. Biosciences Student | Biotechnology Researcher</p>
+            <div class="mt-4">
+                <a href="mailto:sachidanandmishramanas@gmail.com" class="btn btn-light me-2"><i class="fas fa-envelope"></i> Email</a>
+                <a href="https://linkedin.com/in/YOUR_LINKEDIN" class="btn btn-outline-light"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <div class="row">
+            <div class="col-lg-8">
+                <section class="mb-5">
+                    <h2 class="section-header">Summary</h2>
+                    <p class="lead text-muted">A passionate biosciences postgraduate student with a strong foundation in molecular docking, phytochemical screening, and nanoparticle synthesis[cite: 27]. I specialize in integrating wet-lab and computational approaches for biomolecular analysis[cite: 28].</p>
+                </section>
+
+                <section class="mb-5">
+                    <h2 class="section-header">Current Research Spotlight</h2>
+                    <div class="project-highlight">
+                        <h4>Phytochemical Studies of Amaranthus viridis Seeds</h4>
+                        <p class="text-muted"><em>Jan - Jun 2025</em> [cite: 30]</p>
+                        <p>Identifying bioactive compounds with antidiabetic potential using Integrated In Vitro and In Silico experiments[cite: 31, 32]. Presented at International Microorganisms Day 2025[cite: 35].</p>
+                    </div>
+                </section>
+
+                <section class="mb-5">
+                    <h2 class="section-header">Laboratory & Technical Expertise</h2>
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="skill-card">
+                                <h5><i class="fas fa-flask text-teal"></i> Wet Lab Skills</h5>
+                                <p class="small text-muted">CRISPR-Cas9, Flow Cytometry (FACS), SDS-PAGE, DNA/RNA Isolation, Cell Culture (HEK293, Jurkat)[cite: 43, 47, 51, 53].</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="skill-card">
+                                <h5><i class="fas fa-desktop text-teal"></i> Computational/In Silico</h5>
+                                <p class="small text-muted">Molecular Docking (Autodock Vina, iGEMDOCK), Visualization (Pymol, Rasmol), NCBI BLAST[cite: 15, 18, 20].</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="p-4 bg-white rounded shadow-sm">
+                    <h3 class="h5 fw-bold mb-3">Education</h3>
+                    <p class="mb-1"><strong>M.Sc. Biosciences</strong> [cite: 10]</p>
+                    <p class="small text-muted">Sri Sathya Sai Institute of Higher Learning (2025) [cite: 8, 9]</p>
+                    <hr>
+                    <p class="mb-1"><strong>B.Sc. (Hons) Biotechnology</strong> [cite: 13]</p>
+                    <p class="small text-muted">Atal Bihari Vajpayee Vishwavidyalaya (2022-2025) [cite: 11, 12]</p>
+                    
+                    <h3 class="h5 fw-bold mt-4 mb-3">Languages</h3>
+                    <span class="badge-skill">English</span>
+                    <span class="badge-skill">Hindi</span>
+                    <span class="badge-skill">Odia</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-4">
+        <p class="mb-0">&copy; 2026 Sachidanand Mishra | Built with GitHub Pages</p>
+    </footer>
+
+</body>
+</html>
     <div class="section">
         <h2>Technical Skills</h2>
         <span class="skill-tag">Python</span>
